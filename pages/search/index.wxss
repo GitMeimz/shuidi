@@ -1,5 +1,7 @@
 /* pages/search/index.wxss */
 
+/* tabNav样式 */
+
 .tabNav {
   width: 100%;
   white-space: nowrap;
@@ -18,5 +20,73 @@
   font-size: 30rpx;
   font-weight: bolder;
   padding-bottom: 6rpx;
-  border-bottom: 8rpx solid orange;
+  border-bottom: 4rpx solid orange;
+}
+
+/* input样式 */
+
+.searchList {
+  height: 40rpx;
+  background-color: var(--themeColor);
+  padding: 16rpx;
+}
+
+.searchList navigator {
+  height: 100%;
+  background-color: #ccc;
+  color: #666;
+  font-size: 22rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rpx;
+}
+
+/* main */
+
+.main {
+  display: flex;
+}
+
+.main_left {
+  width: 50%;
+  background-color: aqua;
+}
+
+.main_right {
+  width: 50%;
+  background-color: pink;
+}
+
+.main .img {
+  width: 350rpx;
+  height: 360rpx;
+  margin: 0 auto;
+  padding-top: 10rpx;
+}
+
+.main image {
+  width: 100%;
+  border-radius: 15rpx;
+}
+
+.textContent {
+  padding: 0 8rpx;
+}
+
+.textContent .main_title{
+  font-weight: bolder;
+  font-size: 24rpx;
+}
+.userName {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22rpx;
+}
+
+.userName image {
+  display: inline-block;
+  width: 24rpx;
+  height: 24rpx;
+  vertical-align:middle
 }

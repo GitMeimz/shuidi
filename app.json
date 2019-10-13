@@ -4,7 +4,8 @@
     "pages/search/index",
     "pages/release/index",
     "pages/message/index",
-    "pages/My/index"
+    "pages/My/index",
+    "pages/searchList/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -36,8 +37,8 @@
       },
       {
         "pagePath": "pages/My/index",
-       "iconPath": "static/icons/people.png",
-      "selectedIconPath": "static/icons/people_fill.png"
+        "iconPath": "static/icons/people.png",
+        "selectedIconPath": "static/icons/people_fill.png"
       }
     ],
     "borderStyle": "white"

@@ -1,6 +1,55 @@
 <!--pages/search/index.wxml-->
 <!-- <text>pages/search/index.wxml</text> -->
+
 <!-- tab导航 -->
 <scroll-view class="tabNav" scroll-x>
-<text class="tabNavItem {{currentIndex==index?'active':''}}" wx:for="{{tabNav}}" wx:key="index" bindtap="clicktabNavItem" data-index="{{index}}">{{item}}</text>
+  <text class="tabNavItem {{currentIndex==index?'active':''}}" wx:for="{{tabNav}}" wx:key="index" bindtap="clicktabNavItem" data-index="{{index}}">{{item}}</text>
 </scroll-view>
+
+<!-- input搜索框 -->
+<view class="searchList">
+  <navigator url="/pages/searchList/index"> 搜索用户和动态 </navigator>
+</view>
+
+<!-- main主体内容 -->
+<view class="main">
+  <!-- 左列 -->
+  <view class="main_left">
+    <!-- 文章大图 -->
+    <view class="img">
+      <image mode="widthFix" lazy-load src="http://m.qpic.cn/psb?/V12rhgm50qFual/uuaA6qIy2dUl9VpGEQbmeWLVSAF6*zZhPJz*BESQacA!/b/dIQAAAAAAAAA&bo=vAK8ArwCvAIRCT4!&rf=viewer_4"></image>
+    </view>
+    <!-- 文章内容 -->
+    <view class="textContent">
+      <!-- 文章标题 -->
+      <view class="main_title">今天的风儿甚是喧嚣</view>
+      <!-- 用户信息显示 -->
+      <view class="userName">
+        <view>
+          <image mode="widthFix" lazy-load src="http://m.qpic.cn/psb?/V12rhgm50qFual/uuaA6qIy2dUl9VpGEQbmeWLVSAF6*zZhPJz*BESQacA!/b/dIQAAAAAAAAA&bo=vAK8ArwCvAIRCT4!&rf=viewer_4"></image>
+          村里的苗子</view>
+        <view>1.9万</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 右列 -->
+  <view class="main_right">
+    <!-- 文章大图 -->
+    <view class="img">
+      <image mode="widthFix" lazy-load src="http://m.qpic.cn/psb?/V12rhgm50qFual/uuaA6qIy2dUl9VpGEQbmeWLVSAF6*zZhPJz*BESQacA!/b/dIQAAAAAAAAA&bo=vAK8ArwCvAIRCT4!&rf=viewer_4"></image>
+    </view>
+    <!-- 文章内容 -->
+    <view class="textContent">
+      <!-- 文章标题 -->
+      <view class="main_title">今天的风儿甚是喧嚣</view>
+      <!-- 用户信息显示 -->
+      <view class="userName">
+        <view>
+          <image mode="widthFix" lazy-load src="http://m.qpic.cn/psb?/V12rhgm50qFual/uuaA6qIy2dUl9VpGEQbmeWLVSAF6*zZhPJz*BESQacA!/b/dIQAAAAAAAAA&bo=vAK8ArwCvAIRCT4!&rf=viewer_4"></image>
+          村里的苗子</view>
+        <view>1.9万</view>
+      </view>
+    </view>
+  </view>
+</view>
