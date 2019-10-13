@@ -1,1 +1,5 @@
-
+<view class="container">
+  个人中心
+  <text class="iconfont icon-icontabbarhomeup"></text>
+  <text class="iconfont icon-tabbarhomeselect"></text>
+</view>

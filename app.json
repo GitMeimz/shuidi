@@ -11,38 +11,36 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "水滴",
     "navigationBarTextStyle": "black"
-  
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/home.png",
-        "selectedIconPath":"images/home.png"
-        
+        "iconPath": "static/icons/icontabbarhomeup.png",
+        "selectedIconPath": "static/icons/tabbarhomeselect.png"
       },
       {
         "pagePath": "pages/search/index",
-        "iconPath": "images/my.png",
-        "selectedIconPath": "images/my.png"
+        "iconPath": "static/icons/search.png",
+        "selectedIconPath": "static/icons/searchfill.png"
       },
       {
         "pagePath": "pages/release/index",
-        "iconPath": "images/home.png",
-        "selectedIconPath": "images/home.png"
+        "iconPath": "static/icons/addition.png",
+        "selectedIconPath": "static/icons/addition_fill.png"
       },
-        {
-          "pagePath": "pages/message/index",
-          "iconPath": "images/my.png",
-          "selectedIconPath": "images/my.png"
-        },
-        {
-          "pagePath": "pages/My/index",
-          "iconPath": "images/home.png",
-          "selectedIconPath": "images/home.png"
-        }
+      {
+        "pagePath": "pages/message/index",
+        "iconPath": "static/icons/remind.png",
+        "selectedIconPath": "static/icons/remind_fill.png"
+      },
+      {
+        "pagePath": "pages/My/index",
+       "iconPath": "static/icons/people.png",
+      "selectedIconPath": "static/icons/people_fill.png"
+      }
     ],
-    "borderStyle":"white"
+    "borderStyle": "white"
   },
   "sitemapLocation": "sitemap.json"
 }
