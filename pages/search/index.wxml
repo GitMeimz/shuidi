@@ -1,2 +1,6 @@
 <!--pages/search/index.wxml-->
-<text>pages/search/index.wxml</text>
+<!-- <text>pages/search/index.wxml</text> -->
+<!-- tab导航 -->
+<scroll-view class="tabNav" scroll-x>
+<text class="tabNavItem {{currentIndex==index?'active':''}}" wx:for="{{tabNav}}" wx:key="index" bindtap="clicktabNavItem" data-index="{{index}}">{{item}}</text>
+</scroll-view>
